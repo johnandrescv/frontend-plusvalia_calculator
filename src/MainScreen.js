@@ -25,7 +25,7 @@ export const MainScreen = () => {
         const ventaFinal = Number(venta);
         setAlcabalas(ventaFinal*0.01);
         setConcejo(ventaFinal*0.00001);
-        setJunta(ventaFinal*0.03);
+        setJunta(ventaFinal*0.003);
     }, [venta, costo]);
 
     return (
